@@ -1,0 +1,7 @@
+export PATH := bin:$(PATH) 
+
+tarsau: b201202027.c    
+	gcc b201202027.c -o tarsau
+                                                                                                                                                              
+clean:                          
+	rm *.o tarsau
